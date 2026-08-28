@@ -14,7 +14,7 @@
   <artifactId>SpringBoot_REST_API_Blueprints</artifactId>
   <version>1.0.0</version>
   <name>SpringBoot_REST_API_Blueprints</name>
-  <description>ARSW Lab #4 Blueprints — Java 21 / Spring Boot 3.3.x, 1:1 endpoints behavior</description>
+  <description>ARSW Lab #4 Blueprints — Java 25 / Spring Boot 3.3.x, 1:1 endpoints behavior</description>
 
   <properties>
     <java.version>21</java.version>
@@ -41,6 +41,16 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    
   </dependencies>
 
   <build>
